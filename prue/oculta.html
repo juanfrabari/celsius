@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #texto-completo {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="texto-resumen">
+    <p>Este es un resumen del texto.</p>
+    <button onclick="mostrarTextoCompleto()">Mostrar más</button>
+  </div>
+
+  <div id="texto-completo">
+    <p>Este es el texto completo que se muestra al hacer clic en "Mostrar más".</p>
+    <button onclick="mostrarTextoResumen()">Mostrar menos</button>
+  </div>
+
+  <script>
+    function mostrarTextoCompleto() {
+      document.getElementById("texto-resumen").style.display = "none";
+      document.getElementById("texto-completo").style.display = "block";
+    }
+
+    function mostrarTextoResumen() {
+      document.getElementById("texto-completo").style.display = "none";
+      document.getElementById("texto-resumen").style.display = "block";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿Descripcion de los archivos
+===========================
+
+
+clase_pack_fe/
+    config.php //Diferentes configuraciones mediante constantes para establecer el entorno y los diferentes paths
+
+    clase_pack_fe/afip: //Clases propias del webservice
+        AfipWsaa.php //Clase que se encarga de hacer el login a AFIP y de guardar los TRA y los TAs 
+        
+    clase_pack_fe/afip/wsfiles: //Esta carpeta debe mantener el nombre (wsfiles) y estar en la misma carpeta en la que se encuentran las clases (Ej. afip)
+            padrona4_test.crt //Certificado de la empresa [padrona4]
+            padrona4_test.key //Requerido por el WSAA para la autenticacion [padrona4]
+            padrona4_test.ped //Archivo que genera el certificado de la empresa [padrona4]
+            wsaa.wsdl //Estructura WSDL del WSAA 
+            ws_sr_padron_a4.xml //Estructura WSDL del Padron A4
+
+            /**
+             * Los archivos  padrona4_* son propios de cada empresa y estan relacionados con los certificados
+             *
+             * Estos archivos se deben generar en el equipo/server porque relacionan el equipo con la CUIT en AFIP. 
+             *
+             * Para generar estos archivos hay instructivos ubicados en la carpeta clase_pack_fe/docs/
+             *
+             *  padrona4 Es un alias de la empresa que va a implementar la facturacion
+             *
+             */
+
+    clase_pack_fe/test:
+        index.html //Gestion de test de cada WS
+		TestPadronA5_nusoap.php //Prueba de los dos metodos de Padron A4
+		TestWSAA.php //Prueba el login a AFIP 
+		generarcuil.php //Generador del CUIT
+		TestRegistrarFe.php // Prueba Facturación Electrónica
+		TestRegistrarFeMultiIVA.php // Prueba Facturación Electrónica Multi IVA
+		
+		
+   clase_pack_fe/docs: //Documentacion general
+        ADMINREL.DelegarWS.pdf //Delegación de Webservices AFIP
+      	Generar Certificados para factura electronica.docx //Instructivo para generar los certificados
+        manual_desarrollador_COMPG_v2.pdf //Manual publicado por AFIP con toda la explicacion de WSFEv1. Incluye referencia a errores y comentarios, y ademas muestra las estructuras XML
+        WSAA.ObtenerCertificado.pdf //Generación de Certificados Digitales para Utilización con Webservices AFIP
+	    Generador key - csr - OpenSSL - AFIP.EXE //Generación de Certificados Digitales para Utilización con Webservices AFIP
+
+    clase_pack_fe/library: //Scripts y Clases de libreria que utilizan las clases de WS y los scripts de test
+        ErrorLog.php 
+        functions.php
+
+   clase_pack_fe/tmp: //Esta carpeta es utilizada para los logs de las tareas que realiza el WS, y tambien se guardan los TRA y los TAs generados por el WSAA
+    //La carpeta debe tener permisos de lectura y escritura para el user que corre el service de Apache
+
+

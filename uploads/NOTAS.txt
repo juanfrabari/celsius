@@ -1,0 +1,43 @@
+
+
+05:19 p. m. 22/11/2023
+En el detalle del pedido justo antes de finalizar cuando es 00 el porcentaje, no deberia mostralo. 
+
+05:14 p. m. 22/11/2023
+Cuando un repartidor finaliza la entrega por lo tanto debe informar si pago o no, en caso de que ya este activada la opcion de PRECOMPRA CONTADO o CC que se fija en modificar clientes el repartidor no debe elejir el methodo, Si estoy seguro de cuando es precompra por que ya pago. 
+
+05:12 p. m. 22/11/2023
+En el detalle-ruta.php que ve el repartidor que debe ir entregando la mercaderia, por ejemplo si actualizo la direcciòn no se refleja. Hay que actualizar la tabla base de Histo Tambien.
+
+05:10 p. m. 22/11/2023
+creo un pedido nuevo usando su precompra
+Lo resta del pres compra.
+Ahora resulta que me equivoque lo quiero eliminar, 
+Si lo elimina pero no actualiza el stock de la precomra. 
+
+05:06 p. m. 22/11/2023
+en el formulario de alta de un nuevo pedido, cuando se da de alta un cliente que tiene varias sucursales, por mas que yo elija alguna sucursal particular, me toma siempre la misma. 
+
+---------------
+mario5esquinas@gmail.com
+
+Mario-8430249
+Mario Fuentes
+08003337733
+
+movistartv 
+
+-----------------
+Teho132305
+
+5 Esquinas
+Pas: ParriMEF05
+Pas Ruter: AUTwr9Oy
+
+old Pas: X2ad7i5ea2Q9edf8BmNv
+
+AUTwr9Oy
+
+ParriMEF05
+
+https://granpirata.com/peliculas/sonido-de-libertad/

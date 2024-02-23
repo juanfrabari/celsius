@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loginTicketResponse version="1">
+    <header>
+        <source>CN=wsaa, O=AFIP, C=AR, SERIALNUMBER=CUIT 33693450239</source>
+        <destination>SERIALNUMBER=CUIT 20307766516, CN=padrona5</destination>
+        <uniqueId>590850301</uniqueId>
+        <generationTime>2018-09-10T18:48:02.541-03:00</generationTime>
+        <expirationTime>2018-09-11T06:48:02.541-03:00</expirationTime>
+    </header>
+    <credentials>
+        <token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgc3JjPSJDTj13c2FhLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiB1bmlxdWVfaWQ9IjQwNzU3MjM2NSIgZ2VuX3RpbWU9IjE1MzY2MTYwMjIiIGV4cF90aW1lPSIxNTM2NjU5MjgyIi8+CiAgICA8b3BlcmF0aW9uIHR5cGU9ImxvZ2luIiB2YWx1ZT0iZ3JhbnRlZCI+CiAgICAgICAgPGxvZ2luIGVudGl0eT0iMzM2OTM0NTAyMzkiIHNlcnZpY2U9IndzX3NyX3BhZHJvbl9hNSIgdWlkPSJTRVJJQUxOVU1CRVI9Q1VJVCAyMDMwNzc2NjUxNiwgQ049cGFkcm9uYTUiIGF1dGhtZXRob2Q9ImNtcyIgcmVnbWV0aG9kPSIyMiI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24ga2V5PSIyMDMwNzc2NjUxNiIgcmVsdHlwZT0iNCIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgo=</token>
+        <sign>JTrDIgPghYyi1CNa63ExYAwPKEFCdck2EVSQ42FnB+aQEu3IGF34lOZUgYEyDdHM3BNbYiKwXJha3nSUjl2nskdxH3V4Cxus8EkcymTjWOZRX2ZEYjOmxgyoSZE2dJ3W84hPEz1dP2+BJ1BiN2t8V885r8usMRhx1VEMeBZpHKU=</sign>
+    </credentials>
+</loginTicketResponse>

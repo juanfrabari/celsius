@@ -1,0 +1,5 @@
+---------actualiza estado de todos los pedidos---------
+
+UPDATE `pedidos` SET `estado_pedido` = '' WHERE `pedidos`.`estado_pedido` = 'ruta';
+
+---------actualiza estado de todos los pedidos---------

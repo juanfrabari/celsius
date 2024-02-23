@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Test WebServices de AFIP :: Home</title>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <h1>Test WebServices de AFIP :: Home</h1>
+        <h2>IMPORTANTE</h2>
+        <ul>
+            <li>
+               
+                <i>Es necesario que utilize sus propios certificados. Los certificados en modo testing/homologaci&oacute;n sirven para los 3 webservice (WSAA,Padron A5 y WSFE). En modo Producci&oacute;n, Sirve solamente para WSAA y Padron A5.<br>
+                Cualquier inquietud no dudes en consultar. </i>
+            </li>
+        </ul>
+        <h2>WSAA</h2>
+        <ul>
+            <li>
+                <div class="label"><a href="TestWSAA.php" >Test WSAA con class AfipWsaa.php</a></div>
+                <i>Test de autenticaci&oacute;n</i>
+            </li>
+        </ul>
+		<h2>Generar CUIT</h2>
+        <ul>
+            <li>
+                <div class="label"><a href="generarcuit.html" >Formulario para generar CUIT</a></div>
+                <i>Formulario de Consulta de CUIT, mediante n&uacute;mero y tipo (Masculino, Femenino y Societario) </i>
+</li>
+        </ul>
+        <h2>PADRON A5</h2>
+        <ul>
+            <li>
+                <div class="label"><a href="TestPadronA5_nusoap.php" >Test PadronA5</a></div>
+                <i>Test para consultar Personas mediante CUIL/CUIT/CDI</i>
+            </li>
+        </ul>
+		<p>Las consultas al Webservices Padron A5 en modo homologación solo trae algunos datos de algunos cuil, Para cambiar modificar los cuit de los archivos. CUIT de ejemplos: 27314958069 Personas Fisica y 30500010912 Persona Juridica</p>
+		
+		<h2>WSFE</h2>
+        <ul>
+            <li>
+                <div class="label"><a href="TestRegistrarFe.php?ref=tipo_a" >TestRegistrarFe.php?ref=tipo_a</a></div>
+                <i>Test para Registrar Facturas: TIPO A</i>
+            </li>
+            <li>
+                <div class="label"><a href="TestRegistrarFe.php?ref=tipo_b" >TestRegistrarFe.php?ref=tipo_b</a></div>
+                <i>Test para Registrar Facturas: TIPO B</i>
+            </li>
+            <li>
+                <div class="label"><a href="TestRegistrarFe.php?ref=tipo_a_multi_iva" >TestRegistrarFe.php?ref=tipo_a_multi_iva</a></div>
+                <i>Test para Registrar Facturas: TIPO A con multiples alicuotas de IVA</i>
+            </li>
+        </ul>
+		
+		
+		
+</body>
+</html>        
